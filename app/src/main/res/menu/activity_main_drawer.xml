@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menuPreview"
+            android:icon="@drawable/ic_menu"
+            android:title="@string/menuPreview" />
+        <item
+            android:id="@+id/nav_makeOrder"
+            android:icon="@drawable/ic_choices"
+            android:title="@string/makeOrder" />
+        <item
+            android:id="@+id/nav_cookOrder"
+            android:icon="@drawable/ic_chef"
+            android:title="@string/cookOrder" />
+        <item
+            android:id="@+id/nav_checkBills"
+            android:icon="@drawable/ic_bill"
+            android:title="@string/menu_checkBills" />
+        <item
+            android:id="@+id/nav_checkStatus"
+            android:icon="@drawable/ic_round_table"
+            android:title="@string/menu_checkStatus" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_chat"
+            android:title="@string/chat" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_user"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_money"
+            android:icon="@drawable/ic_money"
+            android:title="@string/money" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settings" />
+    </group>
+</menu>

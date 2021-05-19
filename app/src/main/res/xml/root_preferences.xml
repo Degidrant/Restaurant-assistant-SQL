@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/header1">
+
+        <EditTextPreference
+            android:defaultValue="200"
+            android:key="chatnum"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/summary1"
+            android:title="@string/option1" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="date"
+            android:title="@string/option2" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/header2">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="statistics"
+            android:title="@string/option3" />
+    </PreferenceCategory>
+</PreferenceScreen>

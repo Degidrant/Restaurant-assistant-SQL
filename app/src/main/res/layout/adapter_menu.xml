@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/frame">
+
+    <ImageView
+        android:id="@+id/imageViewIcoSimple"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/animload" />
+
+    <TextView
+        android:id="@+id/textViewSimpleName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewIcoSimple"
+        app:layout_constraintStart_toStartOf="@+id/imageViewIcoSimple"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewIcoSimple" />
+
+    <TextView
+        android:id="@+id/textViewPriceSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textColor="@color/redorange"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewIcoSimple"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSimpleName" />
+
+    <TextView
+        android:id="@+id/textViewWeightSimple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="TextView"
+        android:textColor="@color/light"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="@+id/imageViewIcoSimple"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSimpleName" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewIcoSimple"
+        app:layout_constraintTop_toTopOf="@+id/imageViewIcoSimple"
+        app:srcCompat="@drawable/ic_plus" />
+</androidx.constraintlayout.widget.ConstraintLayout>

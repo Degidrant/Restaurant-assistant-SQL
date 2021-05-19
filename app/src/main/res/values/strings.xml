@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Ассистент</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menuPreview">Меню</string>
+    <string name="makeOrder">Сделать заказ</string>
+    <string name="cookOrder">Выдача заказов</string>
+    <string name="menu_checkStatus">Статус зала</string>
+    <string name="money">Рассчёт персонала</string>
+    <string name="history">История</string>
+    <string name="chat">Рабочий чат</string>
+    <string name="profile">Профиль</string>
+    <string name="settings">Настройки</string>
+    <string name="menu_checkBills">Чеки</string>
+    <string name="statistics">
+    %s\n
+    Выполнено заказов: %d\n
+    Предварительная выплата: %d L</string>
+    <string name="statisticsL">
+    %s\n
+    Выполнено заказов: %s\n
+    Предварительная выплата: %s</string>
+    <string name="block01">Личный блок</string>
+    <string name="block02">Администрирование</string>
+    <string name="loading">Получение данных…</string>
+    <!-- Preference Titles -->
+    <string name="header1">Чат</string>
+    <string name="option1">Количество загружаемых сообщений</string>
+    <string name="option2">Показывать дату</string>
+    <string name="header2">Загрузка и быстродействие</string>
+    <string name="option3">Показывать статистику в профиле за всё время</string>
+    <string name="summary1">Меньшее значение -> быстрее загрузка</string>
+
+    <string name="restname">Флекстаран</string>
+    <string name="checkbox1">Сохранять код доступа</string>
+    <string name="checkbox2">Код доступа</string>
+    <string name="etlogin1">Логин</string>
+    <string name="etlogin2">Пароль</string>
+    <string name="etlogin3">Войти в сеть</string>
+    <string name="checkbox3">Сохранять логин и пароль</string>
+    <string name="of1">Официант: %s</string>
+    <string name="orderexpand">Заказ №%d</string>
+
+    <string name="status00">Отменён</string>
+    <string name="status1">Готовится</string>
+    <string name="status2">Готов к выдаче</string>
+    <string name="status3">Выдан</string>
+    <string name="status4">Завёршён</string>
+    <string name="notallorders">У этого столика есть незавершённые заказы. Проверьте список.</string>
+    <string name="billnum">Чек №%d</string>
+    <string name="currency">L</string>
+    <string name="mass">g</string>
+    <string name="addprice">+ %d %s</string>
+    <string name="datetime">%s//%s</string>
+
+    <string name="connectionError">Не удалось подключиться. Проверьте соединение.</string>
+
+    <string name="nonlogin">Неверный логин или пароль</string>
+    <string name="youveentered">Вы вошли в сеть</string>
+    <string name="withoutoptions">Без опций</string>
+
+    <string name="commitbill">Оформить чек?</string>
+    <string name="sureorders">"Вы уверены что хотите оформить его для следующих заказов: "</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="billformed">Чек сформирован! Его preID = %d</string>
+
+    <string name="group1">Основное</string>
+    <string name="group2">Десерт</string>
+    <string name="group3">Закуски</string>
+    <string name="group4">Напитки</string>
+
+    <string name="tablealert">Введите номер столика!</string>
+
+    <string name="pstatus5">Администратор+</string>
+    <string name="pstatus4">Администратор</string>
+    <string name="pstatus2">Официант</string>
+    <string name="pstatus1">Повар</string>
+
+    <string name="stshort1">Статистика за день: </string>
+    <string name="stshort2">Статистика за всё время: </string>
+    <string name="message">Сообщение</string>
+    <string name="assignorder">Оформление заказа</string>
+    <string name="table">Столик</string>
+    <string name="mgroup1">Основные блюда</string>
+    <string name="mgroup2">Десерты</string>
+    <string name="mgroup3">Закуски</string>
+    <string name="mgroup4">Напитки</string>
+    <string name="currentorder">Текущий заказ</string>
+    <string name="commentorder">Комментарий к заказу (100)</string>
+    <string name="assignorderp">Оформить заказ</string>
+
+</resources>
